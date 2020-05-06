@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-family: 'Century Gothic', sans-serif;
+    vertical-align: baseline;
+}
+
+h1 {
+    font-size: 1.3vw;
+    font-family: "Century Gothic", sans-serif;
+    font-weight: bold;
+    margin-left: 15vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+p {
+    font-family: "Century Gothic", sans-serif;
+    font-weight: bold;
+    font-size: .9vw;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3vw;
+}
+
+nav {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.header-top {
+    justify-content: space-between;
+    border-bottom: 2px solid #53196F;
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrapper li a:hover {
+    border-bottom: 4px solid #7E5390;
+    /*opacity: 70%;*/
+    color: #7E5390;
+}
+
+.wrapper li a.logo:hover {
+    opacity: 70%;
+    border-bottom: 0px;
+}
+
+.logo img {
+    width: 50%;
+    height: 50%;
+    margin-top: 2vh;
+    margin-bottom: .5vw;
+}
+
+.menu-item {
+    padding: 20px;
+    font-size: 1.3vw;
+    font-weight: bold;
+    color: #53196F;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+}
+
+.mid-left {
+    position: relative;
+    text-align: justify;
+    width: 15%;
+    color: #53196F;
+    /*margin: 5vh, 20vh, 1vh, 5vh;*/
+    margin-top: 5vw;
+    margin-right: 10vw;
+    margin-left: 15vw;
+}
+
+.button {
+    background-color: #53196F;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .9vw;
+    cursor: pointer;
+    margin-bottom: 1vh;
+}
+
+.curiosities {
+    background-color: #53196F;
+}
+
+.curiosity {
+    padding: 1vw;
+}
+
+.left {
+    margin-left: 5.5vw;
+}
+
+.right {
+    margin-right: 5vw;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-item {
+    display: flex;
+}
+
+.row p {
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2vw;
+}
+
+.row-item {
+    width: 75%;
+}
+
+.row-item p {
+    text-align: center;
+    color: #53196F;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.margin {
+    margin-left: 10vw;
+    margin-right: 8vw;
+}
