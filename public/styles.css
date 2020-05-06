@@ -33,6 +33,10 @@ a {
     font-size: 1.3vw;
 }
 
+img {
+    height: 100% !important;
+}
+
 nav {
     margin-left: 10vw;
     margin-right: 10vw;
@@ -315,6 +319,7 @@ footer p:first-child {
     .follow .flex img {
         margin: 5vw;
         width: 100%;
+        height: 50% !important;
     }
 
     .margin {
