@@ -301,6 +301,7 @@ footer p:first-child {
         font-size: 6vw;
         color: #53196F;
         text-align: center;
+        font-weight: bold;
     }
     .follow .flex {
         flex-direction: row;
