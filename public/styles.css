@@ -215,6 +215,53 @@ footer p:first-child {
     margin-bottom: 2vw;
 }
 
+.mobile-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #53196F;
+    overflow-x: hidden;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.mb-menu {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.closebtn {
+    position: absolute;
+    top: 2vw;
+    right: 10vw;
+    font-size: 60px;
+    border-bottom: none;
+    color: white;
+    text-decoration: none;
+}
+
+.closebtn:hover {
+    color: #7E5390;
+}
+
+.mb-menu li a {
+    font-size: 6vw;
+}
+
+.mb-menu li {
+    margin-bottom: 5vw;
+}
+
+.mb-menu li a:hover {
+    color: #7E5390;
+}
+
 @media (min-width: 970px) {
     ul.wrapper li {
         display: block;
