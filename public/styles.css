@@ -11,6 +11,7 @@ h1 {
     font-size: 1.3vw;
     font-family: "Century Gothic", sans-serif;
     font-weight: bold;
+    color: #53196F;
     margin-left: 15vw;
     margin-top: 3vw;
     margin-bottom: 3vw;
@@ -18,8 +19,8 @@ h1 {
 
 p {
     font-family: "Century Gothic", sans-serif;
-    font-weight: bold;
     font-size: .9vw;
+    color: #53196F;
 }
 
 ul {
@@ -76,6 +77,15 @@ nav {
     font-family: 'Century Gothic', sans-serif;
 }
 
+.top-menu {
+    display: flex;
+}
+
+.top-menu .menu-span {
+    margin: auto;
+    margin-right: 0;
+}
+
 .banner {
     position: relative;
     text-align: center;
@@ -92,6 +102,11 @@ nav {
     margin-top: 5vw;
     margin-right: 10vw;
     margin-left: 15vw;
+}
+
+.mid-left h1 {
+    margin-left: 0;
+    margin-top: 0;
 }
 
 .button {
@@ -157,4 +172,155 @@ nav {
 .margin {
     margin-left: 10vw;
     margin-right: 8vw;
+}
+
+.follow {
+    text-align: center;
+}
+
+.follow p {
+    font-size: 1.4vw;
+    margin-bottom: 3vw;
+}
+
+.follow .flex {
+    margin-left: 30vw;
+    margin-right: 30vw;
+}
+
+.follow img {
+    width: 100%;
+}
+
+footer {
+    background-color: #53196f;
+    text-align: center;
+    padding: 3vw;
+}
+
+footer p {
+    color: white;
+}
+
+footer p:first-child {
+    margin-bottom: 2vw;
+}
+
+.mobile-logo {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+@media (min-width: 970px) {
+    ul.wrapper li {
+        display: block;
+    }
+    .mobile-logo {
+        display: none;
+    }
+    .menu-span {
+        display:none;
+    }
+    .banner img {
+        width: 40%;
+    }
+}
+
+@media (max-width: 970px) {
+    ul.wrapper li {
+        display: none;
+    }
+    .mobile-logo {
+        display: block;
+    }
+    .menu-span {
+        display: block;
+    }
+    h1 {
+        font-size: 6vw;
+        text-align: center;
+        margin-left: 0;
+    }
+    p {
+        font-size: 3.5vw;
+    }
+    .mid-left {
+        width: 60%;
+        text-align: left;
+        position: absolute;
+        background-color: #53196F;
+        padding: 20px;
+        opacity: 0.9;
+        margin-top: 4vw;
+    }
+    .mid-left h1 {
+        font-size: 5vw;
+    }
+    .mid-left h1, p {
+        color: white;
+        text-align: left;
+    }
+    .banner img {
+        width: 100%;
+    }
+    .mid-left a {
+        font-size: 16px;
+        background-color: white;
+        color: #53196F;
+        padding: 8px 0px;
+    }
+    .flex {
+        flex-direction: column;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .right {
+        margin-left: 5.5vw;
+        margin-right: 0;
+    }
+
+    .row-item {
+        width: 100%;
+        margin-top: 5vw;
+    }
+
+    .row-item p {
+        font-size: 6vw;
+        margin-top: 2vw;
+        margin-bottom: 5vw;
+    }
+
+    .row img {
+        width: 10vw !important;
+    }
+
+    .follow p {
+        font-size: 6vw;
+        color: #53196F;
+        text-align: center;
+    }
+    .follow .flex {
+        flex-direction: row;
+        margin-left: 20vw;
+    }
+
+    .follow .flex a {
+        margin: 2vw;
+    }
+
+    .follow .flex img {
+        margin: 5vw;
+        width: 100%;
+    }
+
+    .margin {
+        margin-right: 10vw;
+    }
+
+    footer p {
+        text-align: center;
+    }
 }
