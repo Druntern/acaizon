@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Açaizone Homepage</title>
     <link rel="stylesheet" href="styles.css" type="text/css">
+    <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </head>
 <body>
@@ -39,36 +40,26 @@
                 </nav>
             </div>
     </header>
-    <div class="section-top">
-        <p class="section-title">OUR PRODUCTS</p>
-    </div>
     
-    <a class="category"  href="product.html">
-        <img src="images/açai-category.png">
-        <div class="content">
+    <div class="product-type-banner">
+        <h1 style="font-size: 5vw;">AÇAÍ</h1>
+        <img src="images/açai-bowl.jpg" alt="Açai" style="float:right;">
+    </div>
+
+    <div class="flex item">
+        <img src="images/açai-package.png"></img>
+        <div class="item-content">
             <h1>Açaí</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-    </a>
-    <div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
-    
-    <a class="category"  href="products?id=1">
-        <img src="images/granola-category.png">
-        <div class="content">
-            <h1>Granola</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-    </a>
-    <div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+            <div class="selector-container">
+                <div class="quantity buttons_added">
+                    <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="10" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                </div>
+            </div>
+            <a class="button" href="">BUY NOW</a>
 
-    <a class="category"  href="products?id=1">
-        <img src="images/toppings-category.png">
-        <div class="content">
-            <h1>Toppings</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-    </a>
-    <div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+         </div>
+    </div>
 
     <footer>
         <p>© 2020 All rights reserved to açaízon ®</p>
