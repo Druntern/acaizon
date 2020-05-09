@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Açaizone Homepage</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="mobile-nav" class="mobile-nav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul class="mb-menu">
+            <li><a class="current" href="index.html">Home</a></li>
+            <li><a href="index.html">Products</a></li>
+            <li><a href="index.html">About us</a></li>
+            <li><a href="index.html">Contacts</a></li>
+        </ul>
+    </div>
+    <header>
+            <div class="header-top">
+                <nav>
+                    <ul class="wrapper">
+                        <li><a class="menu-item" href="index.html">Home</a></li>
+                        <li><a class="menu-item" href="products.html">Products</a></li>
+                        <li><a class="menu-item logo" href="index.html" id="logo"><img src="images/logo-light.jpg"></a></li>
+                        <li style="width: 9vw;"><a class="menu-item" href="">About Us</a></li>
+                        <li><a class="menu-item" href="">Contacts</a></li>
+                    </ul>
+                    <div class="top-menu">
+                        <a class="mobile-logo" href="index.html">
+                                <img src="images/logo-light.jpg" alt= "Logo" style="width: 50%;">
+                        </a>
+                        <span class="menu-span" onclick="openNav()">
+                            <img src="images/menu.png" alt="menu icon">
+                        </span>
+                    </div>
+                </nav>
+            </div>
+    </header>
+    
+    <div class="product-type-banner">
+        <h1 style="font-size: 5vw;">GRANOLA</h1>
+        <img src="images/granola.png" style="width: 15%;" alt="Granola" style="float:right;">
+    </div>
+
+    <div class="flex">
+        <div class="mu-item">
+            <img src="images/açai-package.png"></img>
+            <div class="item-content">
+                <h1>Açaí</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="selector-container">
+                    <div class="quantity buttons_added">
+                        <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="10" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                    </div>
+                </div>
+                <a class="button" href="">BUY NOW</a>
+            </div>
+        </div>
+        <div class="mu-item">
+            <img src="images/açai-package.png"></img>
+            <div class="item-content">
+                <h1>Açaí</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="selector-container">
+                    <div class="quantity buttons_added">
+                        <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="10" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                    </div>
+                </div>
+                <a class="button" href="">BUY NOW</a>
+            </div>
+        </div>
+        <div class="mu-item">
+            <img src="images/açai-package.png"></img>
+            <div class="item-content">
+                <h1>Açaí</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="selector-container">
+                    <div class="quantity buttons_added">
+                        <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="10" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                    </div>
+                </div>
+                <a class="button" href="">BUY NOW</a>
+            </div>
+        </div>
+        
+    </div>
+
+    <footer>
+        <p>© 2020 All rights reserved to açaízon ®</p>
+        <p>Website developed by Henrique Mendes</p>
+    </footer>
+    
+</body>
+</html>
