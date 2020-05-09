@@ -432,7 +432,7 @@ footer p:first-child {
     margin-top: 2vw;
 }
 
-.contact-item p, h1 {
+.contact-item p, .contact-item h1 {
     color: white;
     margin-left: 0;
     margin-top: .5vw;
