@@ -223,6 +223,16 @@ footer p {
     color: white;
 }
 
+footer a {
+    font-size: 1.1vw;
+    border-bottom: 1px solid white;
+}
+
+footer a:hover {
+    color: #7E5390;
+    border-bottom: 1px solid #7E5390;
+}
+
 footer p:first-child {
     margin-bottom: 2vw;
 }
@@ -465,6 +475,44 @@ footer p:first-child {
     width: 50%;
 }
 
+.item-container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.mg-item {
+    width: 10%;
+}
+
+.mg-item .item-content {
+    width: 100%;
+}
+
+.mg-item img {
+    width: 100% !important;
+}
+
+.mg-item h1 {
+    text-align: center;
+}
+
+.mg-item p {
+    text-align: center;
+}
+
+.mg-item .quantity.buttons_added {
+    display: block;
+    max-width: fit-content;
+    margin: auto;
+    margin-bottom: 2vw;
+}
+
+.price {
+    margin: auto;
+    font-weight: bold;
+}
 
 
 @media (min-width: 970px) {
@@ -582,6 +630,10 @@ footer p:first-child {
         text-align: center;
     }
 
+    footer a {
+        font-size: 4vw;
+    }
+
     .section-title {
         font-size: 4vw;
     }
@@ -664,12 +716,42 @@ footer p:first-child {
     .contact-form-item .title {
         font-size: 5vw;
     }
+
+    .item-container {
+        flex-direction: column;
+    }
+
+    .mg-item {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10vw;
+    }
+    .reverse {
+        flex-direction: row-reverse;
+    }
+    .mg-item img {
+        width: 30% !important;
+        height: 100%;
+        margin-top: 10vw;
+        margin-right: 10vw;
+    }
+
+    .right-img {
+        margin-right: 0vw !important;
+        margin-left: 10vw;
+    }
+
+    .price {
+        margin-top: 4vw !important;
+        margin-bottom: 4vw !important;
+    }
 }
 
 
 .quantity {
 display: inline-block;
-margin-bottom: 1vw;
+/*margin-bottom: 1vw;*/
 }
 
 .quantity .input-text.qty {
