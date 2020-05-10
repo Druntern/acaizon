@@ -722,7 +722,7 @@ footer p:first-child {
     }
 
     .mg-item {
-        display: flex;
+        
         width: 80%;
         margin: auto;
         margin-bottom: 10vw;
@@ -731,15 +731,14 @@ footer p:first-child {
         flex-direction: row-reverse;
     }
     .mg-item img {
-        width: 30% !important;
+        width: 100% !important;
         height: 100%;
-        margin-top: 10vw;
-        margin-right: 10vw;
+        margin:auto;
     }
-
-    .right-img {
-        margin-right: 0vw !important;
-        margin-left: 10vw;
+    .image-container {
+        width: 50%;
+        margin:auto;
+        
     }
 
     .price {
