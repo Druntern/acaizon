@@ -778,6 +778,9 @@ footer p:first-child {
     .product-type-banner h1 {
         font-size: 5vw;
     }
+    .flags {
+        display: none;
+    }
 }
 
 
