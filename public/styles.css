@@ -536,6 +536,17 @@ footer p:first-child {
     width: 100%;
 }
 
+.cart {
+    position: absolute;
+    margin-top: 2vw;
+    width: 4vw;
+    right: 2vw;
+    
+}
+
+.cart img {
+    width: 100%;
+}
 
 @media (min-width: 970px) {
     ul.wrapper li {
@@ -780,6 +791,9 @@ footer p:first-child {
     }
     .flags {
         display: none;
+    }
+    .cart {
+        display:none;
     }
 }
 
