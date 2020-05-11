@@ -876,7 +876,7 @@ footer p:first-child {
         margin-bottom: 3vw;
     }
     .about-img {
-        width: 50% !important;
+        width: 70% !important;
         margin: auto;
         margin-bottom: 5vw !important;
     }
@@ -887,7 +887,7 @@ footer p:first-child {
     .about-container p {
         margin-bottom: 3vw;
         color: #53196F;
-        text-align: center;
+        text-align: justify;
     }
 }
 
