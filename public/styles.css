@@ -265,8 +265,8 @@ footer p:first-child {
 
 .closebtn {
     position: absolute;
-    top: 2vw;
-    right: 10vw;
+    top: -2.5vw;
+    right: 10.5vw;
     font-size: 60px;
     border-bottom: none;
     color: white;
@@ -279,7 +279,7 @@ footer p:first-child {
 
 .mobile-flags {
     position: absolute;
-    top: 8vw;
+    top: 3.5vw;
     left: 8vw;
     display: flex;
 }
