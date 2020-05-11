@@ -57,7 +57,7 @@ nav {
 
 .header-top {
     justify-content: space-between;
-    border-bottom: 2px solid #53196F;
+    border-bottom: 4px solid #53196F;
 
 }
 
@@ -521,31 +521,31 @@ footer p:first-child {
     font-weight: bold;
 }
 
-.flags {
-    position: absolute;
-    margin-top: 1vw;
-    margin-left: 1vw;
-    display: flex;
-}
 .flag {
     width: 2vw;
     margin-right: .5vw;
 }
-
+.cart {
+    width: 4vw;
+    margin-right: 2.5vw;
+    float: right;
+}
 .flag img {
     width: 100%;
 }
-
-.cart {
-    position: absolute;
-    margin-top: 2vw;
-    width: 4vw;
-    right: 2vw;
-    
-}
-
 .cart img {
     width: 100%;
+}
+
+.user-bar {
+    border-bottom: 2px solid #53196F;
+    height: 4vw;
+}
+.flags {
+    position: absolute;
+    display: flex;
+    right: 2vw;
+    top: 3vw;
 }
 
 @media (min-width: 970px) {
