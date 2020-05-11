@@ -795,6 +795,9 @@ footer p:first-child {
     .cart {
         display:none;
     }
+    .user-bar {
+        display: none;
+    }
 }
 
 
