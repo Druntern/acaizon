@@ -526,8 +526,9 @@ footer p:first-child {
     margin-right: .5vw;
 }
 .cart {
-    width: 4vw;
+    width: 3vw;
     margin-right: 2.5vw;
+    margin-top: 2.5vw;
     float: right;
 }
 .flag img {
@@ -537,14 +538,10 @@ footer p:first-child {
     width: 100%;
 }
 
-.user-bar {
-    border-bottom: 2px solid #53196F;
-    height: 4vw;
-}
 .flags {
     position: absolute;
     display: flex;
-    right: 2vw;
+    left: 2vw;
     top: 3vw;
 }
 
