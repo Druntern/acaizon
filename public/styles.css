@@ -277,6 +277,21 @@ footer p:first-child {
     color: #7E5390;
 }
 
+.mobile-flags {
+    position: absolute;
+    top: 8vw;
+    left: 8vw;
+    display: flex;
+}
+
+.mflag {
+    width: 8vw;
+    margin-right: 2vw;
+}
+.mflag img {
+    width: 100%;
+}
+
 .mb-menu li a {
     font-size: 6vw;
 }
