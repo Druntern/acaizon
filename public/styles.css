@@ -567,6 +567,10 @@ footer p:first-child {
     margin-left: -3vw;
 }
 
+.mobile-cart {
+    display: none;
+}
+
 @media (min-width: 970px) {
     ul.wrapper li {
         display: block;
@@ -826,6 +830,16 @@ footer p:first-child {
     }
     .contacts-contacts img {
         width: 100% !important;
+    }
+    .mobile-cart {
+        display: block;
+        position: fixed;
+        bottom: 2vw;
+        right: 2vw;
+        width: 15vw;
+    }
+    .mobile-cart img {
+        width: 100%;
     }
 }
 
