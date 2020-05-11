@@ -521,6 +521,21 @@ footer p:first-child {
     font-weight: bold;
 }
 
+.flags {
+    position: absolute;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    display: flex;
+}
+.flag {
+    width: 2vw;
+    margin-right: .5vw;
+}
+
+.flag img {
+    width: 100%;
+}
+
 
 @media (min-width: 970px) {
     ul.wrapper li {
